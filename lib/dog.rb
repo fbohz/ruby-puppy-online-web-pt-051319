@@ -11,9 +11,9 @@ class Dog
   end
   
   def self.all 
-    @@all.each do |key|
+    @@all.each do |dog_object|
       
-      puts key.name
+      puts dog_object.name
     end
   end
   
